@@ -1,4 +1,4 @@
-#SkateSquare Discovery
+# SkateSquare Discovery
 Spring Eureka discovery server for all SkateSquare microservices.
 
 ## Building docker images
