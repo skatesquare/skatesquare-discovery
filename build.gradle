@@ -51,7 +51,7 @@ docker {
     def versionInfo = ZoltuGitVersioning.versionInfo
     dependsOn build
     name "skatesquare/discovery"
-    tag "${versionInfo.major}.${versionInfo.minor}.${versionInfo.commitCount}", name
+    tags "${versionInfo.major}.${versionInfo.minor}.${versionInfo.commitCount}", 'latest'
     files jar.archivePath
     buildArgs(['JAR_FILE': "${jar.archiveName}"])
 }
